@@ -1,6 +1,6 @@
 .buttons {
     display: flex;
-    width: 12%;
+    width: 20%;
     justify-content: space-around;
     position: absolute;
     right: 10px;

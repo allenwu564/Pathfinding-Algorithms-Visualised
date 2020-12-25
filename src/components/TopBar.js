@@ -12,8 +12,21 @@ class TopBar extends Component {
             running: true,
         }
         this.startAlgorithm = this.startAlgorithm.bind(this)
+        this.resetGrid = this.resetGrid.bind(this)
     }
-    
+
+    resetPath() {
+        let x
+        let seen = document.querySelectorAll(".seen");
+        for (x = 0; x < seen.length; x++) {
+            seen[x].className = "default"
+        }
+        let path = document.querySelectorAll(".path");
+        for (x = 0; x < path.length; x++) {
+            path[x].className = "default"
+        }
+    }
+
     resetGrid() {
         let walls = document.querySelectorAll(".wall");
         let x;
@@ -24,18 +37,15 @@ class TopBar extends Component {
         for (x = 0; x < weight.length; x++) {
             weight[x].className = "default"
         }
-        let seen = document.querySelectorAll(".seen");
-        for (x = 0; x < seen.length; x++) {
-            seen[x].className = "default"
-        }
-        let path = document.querySelectorAll(".path");
-        for (x = 0; x < path.length; x++) {
-            path[x].className = "default"
-        }
+        this.resetPath()
         let start = document.getElementsByClassName("start")[0]
-        start.className = "default"
+        if (start !== undefined) {
+            start.className = "default"
+        }
         let end = document.getElementsByClassName("end")[0]
-        end.className = "default"
+        if (end !== undefined) {
+            end.className = "default"
+        }
         const startX = parseInt(window.innerWidth/33/3)
         const startY = parseInt(window.innerHeight/31/2)
         const startId = startX.toString() + " " + startY.toString()
@@ -159,7 +169,8 @@ class TopBar extends Component {
                     </Nav>
                     <div className="buttons">
                         <Button type="submit" variant="success" className="startButton" disabled={!this.state.running}>Start</Button>
-                        <Button variant="warning" className="resetButton" onClick={this.resetGrid} disabled={!this.state.running}>Reset</Button>
+                        <Button variant="warning" className="resetButton" onClick={this.resetPath} disabled={!this.state.running}>Reset Path</Button>
+                        <Button variant="warning" className="resetButton" onClick={this.resetGrid} disabled={!this.state.running}>Reset Grid</Button>
                         <HelpModal></HelpModal>
                     </div>
                 </Form>
