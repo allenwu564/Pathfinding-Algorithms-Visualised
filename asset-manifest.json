@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Pathfinding-Algorithms/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/Pathfinding-Algorithms/static/js/main.48e771ef.chunk.js",
+    "main.js.map": "/Pathfinding-Algorithms/static/js/main.48e771ef.chunk.js.map",
+    "runtime-main.js": "/Pathfinding-Algorithms/static/js/runtime-main.a51d3c2b.js",
+    "runtime-main.js.map": "/Pathfinding-Algorithms/static/js/runtime-main.a51d3c2b.js.map",
+    "static/js/2.053cb19f.chunk.js": "/Pathfinding-Algorithms/static/js/2.053cb19f.chunk.js",
+    "static/js/2.053cb19f.chunk.js.map": "/Pathfinding-Algorithms/static/js/2.053cb19f.chunk.js.map",
+    "static/js/3.24797f02.chunk.js": "/Pathfinding-Algorithms/static/js/3.24797f02.chunk.js",
+    "static/js/3.24797f02.chunk.js.map": "/Pathfinding-Algorithms/static/js/3.24797f02.chunk.js.map",
+    "index.html": "/Pathfinding-Algorithms/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/Pathfinding-Algorithms/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.053cb19f.chunk.js.LICENSE.txt": "/Pathfinding-Algorithms/static/js/2.053cb19f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Pathfinding-Algorithms/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a51d3c2b.js",
+    "static/js/2.053cb19f.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.48e771ef.chunk.js"
+  ]
+}
