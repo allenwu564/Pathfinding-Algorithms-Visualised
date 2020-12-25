@@ -76,7 +76,7 @@ class HelpModal extends Component {
                     </Modal.Body>
                     <Modal.Footer>
                         <div className="helpText">
-                            Use left click to place wall nodes, middle click to place weighted nodes and right click reset nodes to default.
+                            Use left click to place wall nodes, middle click to place weighted nodes and right click to reset nodes to default.
                         </div>
                     </Modal.Footer>
                     <Modal.Footer>
