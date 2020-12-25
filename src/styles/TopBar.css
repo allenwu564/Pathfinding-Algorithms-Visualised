@@ -1,0 +1,14 @@
+.buttons {
+    display: flex;
+    width: 12%;
+    justify-content: space-around;
+    position: absolute;
+    right: 10px;
+}
+
+.formAlgos {
+    width: 50%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+}

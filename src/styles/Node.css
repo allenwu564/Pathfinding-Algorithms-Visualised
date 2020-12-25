@@ -1,0 +1,70 @@
+.default {
+    height: 28px;
+    width: 28px;
+    color: #D0D0D0;
+    background-color: #D0D0D0;
+    border-color: #7B7B7B;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.start {
+    height: 28px;
+    width: 28px;
+    color: #89CB4F;
+    background-color: #89CB4F;
+    border-color: #7B7B7B;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.end {
+    height: 28px;
+    width: 28px;
+    color: #CB4F4F;
+    background-color: #CB4F4F;
+    border-color: #7B7B7B;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.path {
+    height: 28px;
+    width: 28px;
+    color: #7370db;
+    background-color: #7370db;
+    border-color: #7B7B7B;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.seen {
+    height: 28px;
+    width: 28px;
+    color: #EDED79;
+    background-color: #EDED79;
+    border-color: #7B7B7B;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.wall {
+    height: 28px;
+    width: 28px;
+    color: #4f4f4f;
+    background-color: #4f4f4f;
+    border-color: #7B7B7B;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.weight {
+    height: 28px;
+    width: 28px;
+    color: #F276F8 ;
+    background-color: #F276F8 ;
+    border-color: #7B7B7B;
+    border-style: solid;
+    border-width: 1px;
+}
+
